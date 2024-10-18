@@ -48,20 +48,20 @@ public class Main {
 
 
         //For Homework (you can make up m and n values)
-
         // 1) create a random integer in the range [m,n]
         // (int)(Math.random()*(n-m+1)+m)
-
+        int hw1 = (int)(Math.random()*(200-100+1)+100);
         // 2) create a random negative integer in the range [-m,0]
         // (int)(Math.random()*(-m-1))
-
+        int hw2 = (int)(Math.random()*(-100-1));
         // 3) create a random negative integer in the range [-m,-n]
-
+        int hw3 = (int)(Math.random()*(-200+100-1)-100);
         // 4) create a random negative integer in the range [-m,n]
-
-
-
-
+        int hw4 = (int)(Math.random()*(-100-200+1)+200);
+        System.out.println(hw1);
+        System.out.println(hw2);
+        System.out.println(hw3);
+        System.out.println(hw4);
 
         // Save for Thursday
 
